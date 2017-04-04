@@ -1,0 +1,12 @@
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	outline: .5px solid black;
+}
+
+img {
+	width: 85px;
+	height: auto;
+	border-radius: 70%;
+	margin-bottom: 20px;	
+	}
