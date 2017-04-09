@@ -17,6 +17,7 @@ p {
 	margin: 0 auto;
 	max-width: 300px;
 	font-weight: 300;
+	text-align: center;
 	/*outline: .5px solid gray;*/
 	}
 
@@ -28,3 +29,17 @@ img {
 	display: block;	
 	}
 
+
+
+@media screen and (min-width: 800px){
+p{
+	max-width: 425px;
+}
+}
+
+@media screen and (min-width: 450px)
+{
+p{
+	text-align: left;
+}
+}
