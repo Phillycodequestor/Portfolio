@@ -22,13 +22,18 @@ p {
 	}
 
 img {
-	width: 85px;
-	height: auto;
+	width: 65px;
+	/*height: auto;*/
 	border-radius: 50%;
 	margin: 10px auto;
 	display: block;	
 	}
 
+nav {
+	height: 112px;
+	background-color: rgb(70, 84, 107);
+	border-bottom: 5px solid #e5e509;
+}
 
 
 @media screen and (min-width: 800px){
