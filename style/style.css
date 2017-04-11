@@ -1,20 +1,17 @@
-p, h2 {
+p, h2, span {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5em;
-	
-	
-}
+	}
 
 h2 {
 	font-size: 2.5em;
 	font-weight: 300;
-/*outline: .5px solid gray;*/
-text-align: center;
-margin-bottom: 11px;
+	color: white;
+	margin: 0px;
 }
 
 p {
-	margin: 0 auto;
+	margin: 20px auto;
 	max-width: 300px;
 	font-weight: 300;
 	text-align: center;
@@ -22,19 +19,25 @@ p {
 	}
 
 img {
-	width: 65px;
-	/*height: auto;*/
+	width: 40px;
 	border-radius: 50%;
-	margin: 10px auto;
-	display: block;	
-	}
-
-nav {
-	height: 112px;
-	background-color: rgb(70, 84, 107);
-	border-bottom: 5px solid #e5e509;
 }
 
+nav {
+	height: 80px;
+	background-color: rgb(70, 84, 107);
+	border-bottom: 3.5px solid #f9e902;
+}
+
+span{
+font-weight: 300;
+}
+
+#sig {
+	max-width: 300px;
+	margin: 0px auto 0px auto;
+	outline: 1px solid black;
+}
 
 @media screen and (min-width: 800px){
 p{
