@@ -19,14 +19,15 @@ p {
 	}
 
 img {
-	width: 40px;
-	border-radius: 50%;
-}
+	width: 45px;
+	height: 45px;
+	}
 
 nav {
 	height: 80px;
 	background-color: rgb(70, 84, 107);
 	border-bottom: 3.5px solid #f9e902;
+display: flex;
 }
 
 span{
