@@ -1,48 +1,69 @@
-p, h2, span {
+
+*{
+	outline: .5px solid gray;
+}
+
+p, h2  {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5em;
 	}
+figcaption{
+font-family: 'Open Sans', sans-serif;
+text-align: center
+}
+
+h1 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 2.5em;
+	font-weight: 400;
+	margin: 30px auto 10px auto;
+	max-width: 300px;
+	line-height: 36px;
+    }
 
 h2 {
 	font-size: 2.5em;
 	font-weight: 300;
 	color: white;
-	margin: 0px;
+	margin: 0 auto;
 }
 
 p {
 	margin: 20px auto;
 	max-width: 300px;
 	font-weight: 300;
-	text-align: center;
+	
 	/*outline: .5px solid gray;*/
 	}
 
-img {
-	width: 45px;
-	height: 45px;
+#menu {
+	width: 25px;
+	height: 25px;
+	position: relative;
+	top: 3px;
+	left: 3px;
 	}
 
-nav {
-	height: 80px;
-	background-color: rgb(70, 84, 107);
-	border-bottom: 3.5px solid #f9e902;
+#mug {
+	display: block;
+	margin: 0 auto;
+	width: 110px;
+	border-radius: 50%;
+
+}
+
+header {
+	height: 30px;
+	background-color: rgb(142, 113, 94);
+	border-bottom: 2px solid #f4501d;
 display: flex;
 }
 
-span{
-font-weight: 300;
-}
 
-#sig {
-	max-width: 300px;
-	margin: 0px auto 0px auto;
-	outline: 1px solid black;
-}
 
 @media screen and (min-width: 800px){
-p{
-	max-width: 425px;
+p, h1{
+	max-width: 475px;
 }
 }
 
