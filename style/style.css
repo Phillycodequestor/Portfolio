@@ -3,6 +3,11 @@
 	outline: .5px solid gray;
 }
 
+main{
+	max-width: 700px;
+	margin: 0 auto;
+}
+
 p, h2  {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5em;
@@ -72,4 +77,11 @@ p, h1{
 p{
 	text-align: left;
 }
+}
+
+@media screen and (min-width: 700px)
+{
+	main{
+		display: flex;
+	}
 }
