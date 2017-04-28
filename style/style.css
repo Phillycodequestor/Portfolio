@@ -1,11 +1,26 @@
 
 *{
-	outline: .5px solid gray;
+	outline: .5px solid blue;
 }
 
 main{
 	max-width: 700px;
 	margin: 0 auto;
+}
+
+li{
+	list-style: none;
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	padding: 7px;
+}
+.navLink {
+color: white;	
+}
+
+a:link {
+	text-decoration: none;
 }
 
 nav {
