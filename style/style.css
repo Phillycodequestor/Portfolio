@@ -21,7 +21,6 @@ color: white;
 
 #introNphoto{
 	margin: 0 auto;
-
 }
 
 a:link {
@@ -51,21 +50,14 @@ h1 {
 	font-family: 'Dosis', sans-serif;
 	font-size: 2.5em;
 	font-weight: 400;
-	margin: 30px auto 10px auto;
+	margin: 30px  10px;
 	max-width: 300px;
 	line-height: 36px;
 	text-align: center;
     }
 
-h2 {
-	font-size: 2.5em;
-	font-weight: 300;
-	color: white;
-	margin: 0 auto;
-}
-
 p {
-	margin: 20px auto;
+	margin: 20px;
 	max-width: 300px;
 	font-weight: 300;
 	
@@ -108,12 +100,25 @@ p, h1{
 p, h1{
 	text-align: left;
 }
+
 }
 
 @media screen and (min-width: 700px)
 {
-	main{
-		margin: 90px auto;
-		display: flex;
-	}
+main{
+margin: 90px auto;
+display: flex;
+}
+figure {
+width: 100px;
+margin: 10px;
+}
+section#introNphoto{
+	width: 600px;
+	display: flex;
+}
+#introBlock{
+	width: 300px;
+	margin: 10px;
+}
 }
