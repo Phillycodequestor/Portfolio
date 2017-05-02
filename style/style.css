@@ -115,7 +115,13 @@ margin: 10px;
 }
 section#introNphoto{
 	width: 600px;
-	display: flex;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #introBlock{
 	width: 300px;
