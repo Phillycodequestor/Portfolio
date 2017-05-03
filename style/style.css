@@ -1,20 +1,21 @@
-
 *{
 	outline: .5px solid blue;
 }
 
-main{
-	/*max-width: 700px;*/
-	margin: 0 auto;
+header {
+	height: 30px;
+	background-color: rgb(142, 113, 94);
+	border-bottom: 2px solid #f4501d;
+display: flex;
 }
 
-li{
-	list-style: none;
-
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.5em;
-	padding: 7px;
+li {
+list-style: none;
+font-family: 'Open Sans', sans-serif;
+font-size: 1.5em;
+padding: 7px;
 }
+
 .navLink {
 color: white;	
 }
@@ -34,35 +35,8 @@ nav {
 	position: absolute;
 	left: 13px;
 	top: 35px;
+	display: none;
 }
-
-p, h2  {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.5em;
-	text-align: center;
-	}
-figcaption{
-font-family: 'Open Sans', sans-serif;
-text-align: center
-}
-
-h1 {
-	font-family: 'Dosis', sans-serif;
-	font-size: 2.5em;
-	font-weight: 400;
-	margin: 30px  10px;
-	max-width: 300px;
-	line-height: 36px;
-	text-align: center;
-    }
-
-p {
-	margin: 20px;
-	max-width: 300px;
-	font-weight: 300;
-	
-	/*outline: .5px solid gray;*/
-	}
 
 #menu {
 	width: 25px;
@@ -75,19 +49,38 @@ p {
 #mug {
 	display: block;
 	margin: 0 auto;
-	width: 80px;
+	width: 100%;
+	height: auto;
 	border-radius: 50%;
-
 }
 
-header {
-	height: 30px;
-	background-color: rgb(142, 113, 94);
-	border-bottom: 2px solid #f4501d;
-display: flex;
+figure{
+	margin-bottom: 30px;
 }
 
+figcaption{
+font-family: 'Open Sans', sans-serif;
+text-align: center
+}
 
+h1 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 2.5em;
+	font-weight: 400;
+	margin: 0px auto 20px auto;
+	max-width: 300px;
+	line-height: 36px;
+	text-align: center;
+    }
+
+p  {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	margin: auto;
+	max-width: 300px;
+	font-weight: 300;
+	}
 
 @media screen and (min-width: 800px){
 p, h1{
@@ -98,19 +91,14 @@ p, h1{
 @media screen and (min-width: 450px)
 {
 p, h1{
-	text-align: left;
+text-align: left;
 }
-
 }
 
 @media screen and (min-width: 700px)
 {
-main{
-margin: 90px auto;
-display: flex;
-}
 figure {
-width: 100px;
+width: 150px;
 margin: 10px;
 }
 section#introNphoto{
@@ -122,6 +110,7 @@ section#introNphoto{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 90px;
 }
 #introBlock{
 	width: 300px;
