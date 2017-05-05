@@ -1,3 +1,4 @@
+
 *{
 	outline: .5px solid blue;
 }
@@ -21,7 +22,7 @@ color: white;
 }
 
 #introNphoto{
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 a:link {
@@ -44,23 +45,30 @@ nav {
 	position: relative;
 	top: 3px;
 	left: 3px;
-	}
+}
 
 #mug {
-	display: block;
-	margin: 0 auto;
-	width: 100%;
-	height: auto;
-	border-radius: 50%;
+margin: 0 auto;
+width: 100%;
+display: block;
+border-radius: 50%;
+border: .5px solid black;
 }
 
 figure{
-	margin-bottom: 30px;
+width: 100px;
+height: 100px;
+margin: 0 auto;
 }
 
 figcaption{
 font-family: 'Open Sans', sans-serif;
 text-align: center
+
+}
+
+#introBlock{
+margin-top: 40px;
 }
 
 h1 {
@@ -97,9 +105,8 @@ text-align: left;
 
 @media screen and (min-width: 700px)
 {
-figure {
-width: 150px;
-margin: 10px;
+figure{
+	margin: 0px;
 }
 section#introNphoto{
 	width: 600px;
