@@ -106,7 +106,7 @@ text-align: left;
 @media screen and (min-width: 700px)
 {
 figure{
-	margin: 0px;
+	margin: 10px;
 }
 section#introNphoto{
 	width: 600px;
@@ -115,9 +115,9 @@ section#introNphoto{
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    align-items: center;
+   /* align-items: center;*/
     justify-content: center;
-    margin-top: 90px;
+    margin-top: 70px;
 }
 #introBlock{
 	width: 300px;
