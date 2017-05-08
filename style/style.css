@@ -64,7 +64,6 @@ margin: 0 auto;
 figcaption{
 font-family: 'Open Sans', sans-serif;
 text-align: center
-
 }
 
 #introBlock{
@@ -89,6 +88,21 @@ p  {
 	max-width: 300px;
 	font-weight: 300;
 	}
+
+#appLinks{
+
+}
+
+.appContent {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+#truthIcon{
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 50%;
+}
 
 @media screen and (min-width: 800px){
 p, h1{
