@@ -1,4 +1,3 @@
-
 *{
 	outline: .5px solid blue;
 }
@@ -52,16 +51,16 @@ margin: 0 auto;
 width: 100%;
 display: block;
 border-radius: 50%;
-border: .5px solid black;
+/*border: .5px solid black;*/
 }
 
 figure{
 width: 100px;
 height: 100px;
-margin: 0 auto;
+margin: 50px auto;
 }
 
-figcaption, h3{
+figcaption{
 font-family: 'Open Sans', sans-serif;
 text-align: center
 }
@@ -81,7 +80,11 @@ h1 {
     }
 
    h3{
-   	width: 300px;
+   	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	text-align: center;
+   	
    }
 
 p  {
@@ -92,22 +95,10 @@ p  {
 	max-width: 300px;
 	font-weight: 300;
 	}
-
-#appLinks{
-display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    justify-content: center;
-    height: 300px;
+.iconContainer{
+	margin: 50px auto 10px auto;
 }
 
-.appContent {
-	width: 100px;
-	height: 100px;
-	margin-top: 70px;
-}
 .Icons{
 	width: 100%;
 	border-radius: 50%;
@@ -130,6 +121,9 @@ text-align: left;
 {
 figure{
 	margin: 10px;
+}
+.iconContainer{
+	margin: 50px auto 10px auto;
 }
 section#introNphoto{
 	width: 600px;
