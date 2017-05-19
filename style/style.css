@@ -3,9 +3,11 @@
 }
 */
 header {
-	height: 30px;
-	background-color: rgb(142, 113, 94);
-	border-bottom: 2px solid #f4501d;
+	height: 90px;
+	background-color: rgb(64, 57, 53);
+	box-shadow: 0px 3px 2px #f4501d;
+	-moz-box-shadow: 0px 3px 2px #f4501d; 
+	-webkit-box-shadow: 0px 3px 2px #f4501d; 
 display: flex;
 }
 
@@ -62,7 +64,6 @@ border-radius: 50%;
 box-shadow: 2px .5px 3px 2px #888888;
 -moz-box-shadow: 2px .5px 3px 2px #888888;
 -webkit-box-shadow: 2px .5px 3px 2px #888888; 
-
 }
 
 figcaption{
@@ -87,7 +88,7 @@ h1 {
    h3{
    	font-family: 'Dosis', sans-serif;
 	font-size: 1.5em;
-	font-weight: 400;
+	font-weight: 300;
 	text-align: center;
    	
    }
@@ -122,9 +123,7 @@ p, h1{
 
 @media screen and (min-width: 450px)
 {
-p, h1{
-text-align: left;
-}
+
 }
 
 @media screen and (min-width: 700px)
@@ -145,6 +144,9 @@ section#introNphoto{
    /* align-items: center;*/
     justify-content: center;
     margin-top: 70px;
+  }
+  p, h1{
+	text-align: left;
 }
 #introBlock{
 	width: 300px;
