@@ -1,14 +1,17 @@
-/**{
-	outline: .15px solid brown;
+*{
+	/* outline: .15px solid brown; */
 }
-*/
+
 header {
-	height: 90px;
+	height: 66px;
 	background-color: rgb(64, 57, 53);
 	box-shadow: 0px 3px 2px #f4501d;
-	-moz-box-shadow: 0px 3px 2px #f4501d; 
-	-webkit-box-shadow: 0px 3px 2px #f4501d; 
-display: flex;
+	-moz-box-shadow: 0px 3px 2px #f4501d;
+	-webkit-box-shadow: 0px 3px 2px #f4501d;
+	display: flex;
+}
+#desktopNav{
+display: none;
 }
 
 li {
@@ -44,8 +47,8 @@ nav {
 	width: 25px;
 	height: 25px;
 	position: relative;
-	top: 3px;
-	left: 3px;
+	top: 20px;
+	left: 10px;
 }
 
 #mug {
@@ -68,7 +71,8 @@ box-shadow: 2px .5px 3px 2px #888888;
 
 figcaption{
 font-family: 'Open Sans', sans-serif;
-text-align: center
+text-align: center;
+margin-top: 5px;
 }
 
 #introBlock{
@@ -128,9 +132,28 @@ p, h1{
 
 @media screen and (min-width: 700px)
 {
+	#desktopNav{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25em;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	width: 350px;
+	font-weight: 300;
+}
 figure{
 	margin: 10px;
 }
+
+#menu{
+	display: none;
+}
+
+header{
+height: 90px;
+}
+
 .iconContainer{
 	margin: 50px auto 10px auto;
 }
@@ -150,6 +173,6 @@ section#introNphoto{
 }
 #introBlock{
 	width: 300px;
-	margin: 10px;
+	margin: 10px 10px 10px 15px;
 }
 }
