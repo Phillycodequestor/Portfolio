@@ -2,9 +2,13 @@
 	/* outline: .15px solid brown; */
 }
 
+body {
+	background-color: #f5f5ef;
+}
+
 header {
 	height: 66px;
-	background-color: rgb(64, 57, 53);
+	background-color: rgb(185, 182, 142);
 	box-shadow: 0px 3px 2px #f4501d;
 	-moz-box-shadow: 0px 3px 2px #f4501d;
 	-webkit-box-shadow: 0px 3px 2px #f4501d;
@@ -69,11 +73,7 @@ box-shadow: 2px .5px 3px 2px #888888;
 -webkit-box-shadow: 2px .5px 3px 2px #888888; 
 }
 
-figcaption{
-font-family: 'Open Sans', sans-serif;
-text-align: center;
-margin-top: 5px;
-}
+figcaption{font-family: 'Open Sans', sans-serif;text-align: center;margin-top: 5px;color: lightslategray;}
 
 #introBlock{
 margin-top: 40px;
@@ -81,13 +81,14 @@ margin-top: 40px;
 
 h1 {
 	font-family: 'Dosis', sans-serif;
-	font-size: 2.5em;
+	font-size: 2.85em;
 	font-weight: 400;
 	margin: 0px auto 20px auto;
 	max-width: 300px;
 	line-height: 36px;
 	text-align: center;
-    }
+	color: #f4501d;
+	}
 
    h3{
    	font-family: 'Dosis', sans-serif;
@@ -104,12 +105,9 @@ p  {
 	margin: auto;
 	max-width: 300px;
 	font-weight: 300;
+	color: gray;
 	}
-hr{
-width: 125px;
-margin-top: 130px;
-margin-bottom: 130px;
-}
+hr{width: 125px;margin-top: 115px;margin-bottom: 115px;}
 .iconContainer{
 	margin: 50px auto 10px auto;
 }
@@ -137,6 +135,10 @@ p, h1{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.25em;
 	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	justify-content: space-between;
 	margin: auto;
 	width: 350px;
@@ -160,14 +162,13 @@ height: 90px;
 section#introNphoto{
 	width: 600px;
 	display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-   /* align-items: center;*/
-    justify-content: center;
-    margin-top: 70px;
-  }
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	}
   p, h1{
 	text-align: left;
 }
