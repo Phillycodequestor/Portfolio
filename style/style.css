@@ -1,5 +1,5 @@
 *{
-	/* outline: .15px solid brown; */
+	 /* outline: .15px solid brown; */
 }
 
 body {
@@ -8,7 +8,7 @@ body {
 
 header {
 	height: 66px;
-	background-color: rgb(185, 182, 142);
+	background-color: rgb(58, 56, 64);
 	box-shadow: 0px 3px 2px #f4501d;
 	-moz-box-shadow: 0px 3px 2px #f4501d;
 	-webkit-box-shadow: 0px 3px 2px #f4501d;
@@ -88,14 +88,22 @@ h1 {
 	line-height: 36px;
 	text-align: center;
 	color: #f4501d;
+
 	}
 
    h3{
    	font-family: 'Dosis', sans-serif;
-	font-size: 1.5em;
+	font-size: 2.45em;
 	font-weight: 300;
 	text-align: center;
-   	
+	color: #f4501d;
+	margin-bottom: 18px;
+	margin-top: 18px;
+	
+   	}
+
+   #iconText {
+   	text-align: center;
    }
 
 p  {
