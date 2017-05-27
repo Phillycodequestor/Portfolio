@@ -1,18 +1,24 @@
 *{
-	/* outline: .15px solid brown; */
+/*	outline: .15px solid brown; */
 }
 
 body {
-	background-color: #f5f5ef;
+	background-color: white;
+	
 }
-
 header {
 	height: 66px;
+	width: 100%;
 	background-color: rgb(58, 56, 64);
 	box-shadow: 0px 3px 2px #f4501d;
 	-moz-box-shadow: 0px 3px 2px #f4501d;
 	-webkit-box-shadow: 0px 3px 2px #f4501d;
 	display: flex;
+
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
 }
 #desktopNav{
 display: none;
@@ -35,6 +41,10 @@ color: white;
 
 a:link {
 	text-decoration: none;
+	}
+
+a:visited{
+	color: white;
 }
 
 nav {
@@ -74,6 +84,10 @@ box-shadow: 2px .5px 3px 2px #888888;
 }
 
 figcaption{font-family: 'Open Sans', sans-serif;text-align: center;margin-top: 5px;color: lightslategray;}
+
+#container{
+	padding-top: 125px;
+}
 
 #introBlock{
 margin-top: 40px;
@@ -138,6 +152,11 @@ p, h1{
 
 @media screen and (min-width: 700px)
 {
+body {
+	background-color: #f1eadf;
+	
+}
+	
 	#desktopNav{
 	color: white;
 	font-family: 'Open Sans', sans-serif;
@@ -163,7 +182,11 @@ figure{
 header{
 height: 90px;
 }
-
+#container{
+	width: 700px;
+	background-color:white;
+	margin: 0 auto;
+}
 .iconContainer{
 	margin: 50px auto 10px auto;
 }
