@@ -19,7 +19,19 @@ position: fixed;
 	left: 0px;
 }
 
-
+#branding{
+width: 32px;
+height: 32px;
+background-color: #f4501d;
+color: white; 
+border-radius: 50%;
+text-align: center;
+position: fixed;
+line-height: 32px;
+top: 17px;
+right: 30px;
+font-family: 'Open Sans', sans-serif;
+}
 
 #desktopNav{
 display: none;
@@ -185,17 +197,9 @@ height: 90px;
 }
 
 #branding{
-width: 32px;
-height: 32px;
-background-color: #f4501d;
-color: white; 
-border-radius: 50%;
-line-height: 32px;
-text-align: center;
 position: fixed;
 top: 29px;
 right: 30px;
-font-family: 'Open Sans', sans-serif;
 }
 
 #container{
