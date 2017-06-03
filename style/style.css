@@ -1,5 +1,5 @@
 *{
-/*outline: .15px solid brown; */
+/*outline: .15px solid brown;*/ 
 }
 
 body {
@@ -44,6 +44,11 @@ font-size: 1.5em;
 padding: 7px;
 }
 
+.bulletList li {
+list-style-type: disc;
+font-size: 1em;	
+}
+
 .navLink {
 color: white;	
 }
@@ -83,7 +88,6 @@ margin: 0 auto;
 width: 100%;
 display: block;
 border-radius: 50%;
-/*border: .5px solid black;*/
 }
 
 figure{
@@ -115,6 +119,13 @@ h1 {
 	line-height: 36px;
 	text-align: center;
 	color: #f4501d;
+
+	}
+
+	h2{
+	font-family: 'Open Sans', sans-serif;	
+	padding-left: 18px;
+	font-weight: 300;
 
 	}
 
