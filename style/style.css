@@ -49,6 +49,10 @@ list-style-type: disc;
 font-size: 1em;	
 }
 
+p{
+font-family: 'Open Sans', sans-serif;	
+}
+
 .navLink {
 color: white;	
 }
@@ -119,15 +123,14 @@ h1 {
 	line-height: 36px;
 	text-align: center;
 	color: #f4501d;
-
-	}
+}
 
 	h2{
 	font-family: 'Open Sans', sans-serif;	
 	padding-left: 18px;
 	font-weight: 300;
-
-	}
+	text-align: center;
+}
 
    h3{
    	font-family: 'Dosis', sans-serif;
@@ -137,23 +140,23 @@ h1 {
 	color: #f4501d;
 	margin-bottom: 18px;
 	margin-top: 18px;
-	
-   	}
+	}
 
-   #iconText {
+   .nutGraph {
    	text-align: center;
-   }
-
-p  {
-	font-family: 'Open Sans', sans-serif;
+   	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5em;
 	text-align: center;
 	margin: auto;
 	max-width: 300px;
 	font-weight: 300;
 	color: gray;
-	}
+   }
+.plainText {
+   padding-left: 18px;
+}
 hr{width: 125px;margin-top: 115px;margin-bottom: 115px;}
+
 .iconContainer{
 	margin: 50px auto 10px auto;
 }
@@ -163,16 +166,18 @@ hr{width: 125px;margin-top: 115px;margin-bottom: 115px;}
 	border-radius: 50%;
 }
 
+.resumeBlock{
+margin: 0 auto;
+max-width: 600px;
+}
+
 @media screen and (min-width: 800px){
 p, h1{
 	max-width: 475px;
 }
 }
 
-@media screen and (min-width: 450px)
-{
 
-}
 
 @media screen and (min-width: 700px)
 {
@@ -180,7 +185,14 @@ body {
 	background-color: #f1eadf;
 	
 }
-	
+	h2{
+text-align: left;
+	}
+
+	#helloWorld{
+		text-align: left;
+	}
+
 	#desktopNav{
 	color: white;
 	font-family: 'Open Sans', sans-serif;
