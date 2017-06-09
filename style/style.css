@@ -9,12 +9,12 @@ body {
 header {
 	height: 66px;
 	width: 100%;
-	background-color: rgb(58, 56, 64);
+	background-color: darkslategrey;
 	box-shadow: 0px 3px 2px #f4501d;
 	-moz-box-shadow: 0px 3px 2px #f4501d;
 	-webkit-box-shadow: 0px 3px 2px #f4501d;
 	display: flex;
-position: fixed;
+	position: fixed;
 	top: 0px;
 	left: 0px;
 }
@@ -108,6 +108,7 @@ figcaption{font-family: 'Open Sans', sans-serif;text-align: center;margin-top: 5
 
 #container{
 	padding-top: 125px;
+	padding-bottom: 100px;
 }
 
 #introBlock{
@@ -169,6 +170,13 @@ hr{width: 125px;margin-top: 115px;margin-bottom: 115px;}
 .resumeBlock{
 margin: 0 auto;
 max-width: 600px;
+}
+
+footer {
+	margin-top: 80px;
+	width: auto;
+	height: 40px;
+	background-color: black;
 }
 
 @media screen and (min-width: 800px){
